@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Ashenafi portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial:wght@400&display=swap" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style2.css">
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+  <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+    <!-- Logo -->
+    <a href="index.html" class="logo d-flex align-items-center">
+      <h1 class="sitename" style="margin:0; font-weight:700; font-size:1.5rem;">Ashenafi Portfolio</h1>
+    </a>
+
+    <!-- Navigation Menu -->
+    <nav id="navmenu" class="navmenu">
+      <ul class="d-flex gap-4 m-0 p-0 list-unstyled">
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
+
+    <!-- Social Links -->
+    <div class="header-social-links d-none d-xl-flex gap-3">
+      <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+  </div>
+</header>
+
+
+<script>
+window.addEventListener('scroll', () => {
+  const header = document.getElementById('header');
+  if (window.scrollY > 50) {
+    header.classList.add('scrolled');
+  } else {
+    header.classList.remove('scrolled');
+  }
+});
+</script>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+   <!-- Hero Section -->
+<!-- Hero Section -->
+<section id="hero" class="hero section">
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100" style="width: 100%; position: relative; z-index: 2;">
+    <div class="row align-items-center content">
+
+      <!-- Hero Text -->
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <h2 style="font-size:3rem; line-height:1.2;">I am a Full-Stack Developer</h2>
+        <p class="lead" style="font-size:1.1rem; margin-top:20px;">
+          A Full-Stack Developer designs, builds, and maintains both the front-end (user interface) and back-end (server, database, and application logic) of web applications.
+        </p>
+        <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300" style="margin-top:30px;">
+          <a href="#portfolio" class="btn btn-primary" style="padding: 10px 30px; margin-right:10px;">View My Work</a>
+          <a href="#contact" class="btn btn-outline" style="padding: 10px 30px;">Let's Connect</a>
+        </div>
+        <div class="hero-stats" data-aos="fade-up" data-aos-delay="400" style="display:flex; gap:20px; margin-top:40px;">
+        </div>
+      </div>
+
+      <!-- Hero Image -->
+      <div class="col-lg-6" style="position: relative; display:flex; justify-content:center; align-items:center">
+        <img src="./assets/img/profile/ashuu.avif" 
+             alt="Portfolio Hero Image" 
+             style="width:100%; max-width:600px; height:auto; border-radius:20px; object-fit:cover; box-shadow:0 8px 20px rgba(0,0,0,0.2);" 
+             data-aos="zoom-out" data-aos-delay="300">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- About Section -->
+<section id="about" class="about section light-background">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>About</h2>
+    <div class="title-shape">
+      <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
+      </svg>
+    </div>
+    <p>Learn more about my journey as a Full-Stack Developer, my skills, and what drives me in the world of technology.</p>
+  </div>
+
+  <div class="container about-container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row">
+
+      <!-- Image -->
+      <div class="col-lg-6 about-image" data-aos="fade-right" data-aos-delay="200">
+        <img src="assets/img/profile/ashu.jpg" alt="Profile Image">
+      </div>
+
+      <!-- Content -->
+      <div class="col-lg-6 about-content" data-aos="fade-left" data-aos-delay="300">
+        <span class="subtitle">About Me</span>
+        <h2>Fullstack Developer</h2>
+        <p>
+          When I began studying Software Engineering, I was deeply curious about how websites work — how code can turn ideas into something real and useful.
+          I decided to build my own portfolio website, not just as a school project, but as a personal challenge to grow as a developer.
+        </p>
+        <p>
+          I spent countless hours learning how the frontend and backend connect, how to manage data with APIs, and how to deploy a live website.
+          Every challenge helped me become a better problem solver.
+        </p>
+
+        <!-- Personal Info -->
+        <div class="personal-info">
+          <div class="info-item"><strong>Name:</strong> Ashenafi Sileshi</div>
+          <div class="info-item"><strong>Phone:</strong> +251968277909</div>
+          <div class="info-item"><strong>Age:</strong> 21 Years</div>
+          <div class="info-item"><strong>Email:</strong> ashenafisileshi7@gmail.com</div>
+          <div class="info-item"><strong>Occupation:</strong> Fullstack Developer</div>
+          <div class="info-item"><strong>Nationality:</strong> Ethiopian</div>
+        </div>
+
+        <!-- Signature -->
+        <div class="signature">
+          <img src="assets/img/misc/signature-1.webp" alt="Signature">
+          <div class="signature-info">
+            <h4>Ashenafi Sileshi</h4>
+            <p>MERN Stack Developer</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- Skills Section -->
+<!-- Skills Section -->
+<section id="skills" class="skills section" style="padding: 60px 0; background-color: #f9f9f9;">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row g-4 skills-animation">
+
+      <!-- HTML & CSS -->
+      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+        <div class="skill-box" style="background:#fff;padding:20px;border-radius:10px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,0.05);">
+          <i class="fa-brands fa-html5" style="font-size:40px;color:#E34F26;"></i>
+          <i class="fa-brands fa-css3-alt" style="font-size:40px;color:#1572B6;margin-left:10px;"></i>
+          <h3 style="margin-top:15px;">HTML & CSS</h3>
+          <p>Building responsive and visually appealing web interfaces.</p>
+          <span class="text-end d-block">90%</span>
+          <div class="progress" style="height:8px;background:#eee;border-radius:5px;overflow:hidden;">
+            <div class="progress-bar" data-value="90" style="height:8px;width:0;background:#007bff;transition:width 1.5s ease;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Node.js -->
+      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+        <div class="skill-box" style="background:#fff;padding:20px;border-radius:10px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,0.05);">
+          <i class="fa-brands fa-node-js" style="font-size:40px;color:#3C873A;"></i>
+          <h3 style="margin-top:15px;">Node.js</h3>
+          <p>Developing fast and scalable backend applications.</p>
+          <span class="text-end d-block">80%</span>
+          <div class="progress" style="height:8px;background:#eee;border-radius:5px;overflow:hidden;">
+            <div class="progress-bar" data-value="80" style="height:8px;width:0;background:#28a745;transition:width 1.5s ease;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+        <div class="skill-box" style="background:#fff;padding:20px;border-radius:10px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,0.05);">
+          <i class="fa-brands fa-js" style="font-size:40px;color:#F7DF1E;"></i>
+          <h3 style="margin-top:15px;">JavaScript</h3>
+          <p>Writing dynamic, interactive, and efficient code.</p>
+          <span class="text-end d-block">80%</span>
+          <div class="progress" style="height:8px;background:#eee;border-radius:5px;overflow:hidden;">
+            <div class="progress-bar" data-value="80" style="height:8px;width:0;background:#f0db4f;transition:width 1.5s ease;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- React -->
+      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
+        <div class="skill-box" style="background:#fff;padding:20px;border-radius:10px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,0.05);">
+          <i class="fa-brands fa-react" style="font-size:40px;color:#61DBFB;"></i>
+          <h3 style="margin-top:15px;">React</h3>
+          <p>Creating reusable components and SPAs.</p>
+          <span class="text-end d-block">70%</span>
+          <div class="progress" style="height:8px;background:#eee;border-radius:5px;overflow:hidden;">
+            <div class="progress-bar" data-value="70" style="height:8px;width:0;background:#61DBFB;transition:width 1.5s ease;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MySQL -->
+      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="500">
+        <div class="skill-box" style="background:#fff;padding:20px;border-radius:10px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,0.05);">
+          <i class="fa-solid fa-database" style="font-size:40px;color:#00618A;"></i>
+          <h3 style="margin-top:15px;">MySQL</h3>
+          <p>Managing structured data and efficient queries.</p>
+          <span class="text-end d-block">80%</span>
+          <div class="progress" style="height:8px;background:#eee;border-radius:5px;overflow:hidden;">
+            <div class="progress-bar" data-value="80" style="height:8px;width:0;background:#00618A;transition:width 1.5s ease;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MongoDB -->
+      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="600">
+        <div class="skill-box" style="background:#fff;padding:20px;border-radius:10px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,0.05);">
+          <i class="fa-solid fa-leaf" style="font-size:40px;color:#47A248;"></i>
+          <h3 style="margin-top:15px;">MongoDB</h3>
+          <p>Handling unstructured NoSQL data efficiently.</p>
+          <span class="text-end d-block">80%</span>
+          <div class="progress" style="height:8px;background:#eee;border-radius:5px;overflow:hidden;">
+            <div class="progress-bar" data-value="80" style="height:8px;width:0;background:#47A248;transition:width 1.5s ease;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Java -->
+      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="700">
+        <div class="skill-box" style="background:#fff;padding:20px;border-radius:10px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,0.05);">
+          <i class="fa-brands fa-java" style="font-size:40px;color:#f89820;"></i>
+          <h3 style="margin-top:15px;">Java</h3>
+          <p>Developing robust object-oriented backend systems.</p>
+          <span class="text-end d-block">75%</span>
+          <div class="progress" style="height:8px;background:#eee;border-radius:5px;overflow:hidden;">
+            <div class="progress-bar" data-value="75" style="height:8px;width:0;background:#f89820;transition:width 1.5s ease;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- C++ -->
+      <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="800">
+        <div class="skill-box" style="background:#fff;padding:20px;border-radius:10px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,0.05);">
+          <i class="fa-solid fa-code" style="font-size:40px;color:#00599C;"></i>
+          <h3 style="margin-top:15px;">C++</h3>
+          <p>Writing efficient and high-performance programs.</p>
+          <span class="text-end d-block">75%</span>
+          <div class="progress" style="height:8px;background:#eee;border-radius:5px;overflow:hidden;">
+            <div class="progress-bar" data-value="75" style="height:8px;width:0;background:#00599C;transition:width 1.5s ease;"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- /Skills Section -->
+
+
+<!-- Resume Section -->
+<section id="resume" class="resume section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Resume</h2>
+    <div class="title-shape">
+      <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
+      </svg>
+    </div>
+    <p>My professional journey as a developer — from curiosity to creation, growth, and teamwork in the world of technology.</p>
+  </div>
+  <!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row">
+      <div class="col-12">
+        <div class="resume-wrapper">
+
+          <!-- Work Experience -->
+          <div class="resume-block" data-aos="fade-up">
+            <h2>Work Experience & Developer Journey</h2>
+            <p class="lead">
+              I began my journey in coding in 2024 while studying at Wollo University, driven by curiosity and a desire to understand how technology can solve real-world problems. What started as learning the basics of programming quickly grew into a passion for building web applications and exploring the full software development lifecycle.
+            </p>
+
+            <div class="timeline">
+
+              <!-- Full-Stack Developer Experience -->
+              <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="timeline-left">
+                  <h4 class="company">Personal Projects & Freelance Work</h4>
+                  <span class="period">2024 – Present</span>
+                </div>
+                <div class="timeline-dot"></div>
+                <div class="timeline-right">
+                  <h3 class="position">Full-Stack Developer</h3>
+                  <p class="description">
+                    Worked on multiple impactful projects that strengthened my technical and problem-solving skills. Developed full-stack applications using React for frontend and Node.js for backend, integrating databases, RESTful APIs, and deploying projects online.
+                  </p>
+                  <ul>
+                    <li>Built and deployed a personal portfolio website to showcase skills and projects.</li>
+                    <li>Developed a Student Management System with JWT authentication and MongoDB database integration.</li>
+                    <li>Created a mini E-commerce application with product listings, shopping cart, and Stripe payments.</li>
+                    <li>Gained hands-on experience in deploying full-stack apps using Render and GitHub.</li>
+                  </ul>
+                </div>
+              </div>
+
+          <!-- Education -->
+<div class="resume-block" data-aos="fade-up" data-aos-delay="100">
+  <h2>Education</h2>
+  <p class="lead">
+    Undergraduate software engineering student with a growing foundation in programming and web development, supported
+    by focused self-learning and hands-on practice.
+  </p>
+
+  <div class="timeline">
+
+    <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+      <div class="timeline-left">
+        <h4 class="company">Wollo University, Ethiopia</h4>
+        <span class="period">2021 – Present</span>
+      </div>
+      <div class="timeline-dot"></div>
+      <div class="timeline-right">
+        <h3 class="position">Undergraduate – Software Engineering</h3>
+        <p class="description">
+          Currently an undergraduate student in Software Engineering. Building foundational knowledge in programming
+          concepts, problem solving, algorithms, databases, and software development principles through academic
+          coursework and practical exercises.
+        </p>
+      </div>
+    </div>
+
+    <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+      <div class="timeline-left">
+        <h4 class="company">Self-Learning & Online Resources</h4>
+        <span class="period">2024 – Present</span>
+      </div>
+      <div class="timeline-dot"></div>
+      <div class="timeline-right">
+        <h3 class="position">Web Development & Programming Fundamentals</h3>
+        <p class="description">
+          Began coding in 2024 through self-directed learning using online tutorials, documentation, and practice
+          projects. Developing skills in JavaScript, React, Node.js, REST APIs, and basic backend development, with a
+          strong focus on hands-on learning and continuous improvement.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- End Education -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Resume Section -->
+
+
+
+
+<section id="portfolio" class="portfolio section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Portfolio</h2>
+    <div class="title-shape">
+      <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
+      </svg>
+    </div>
+    <p>Here are some of the projects I’ve worked on, showcasing web development, design, and creative work.</p>
+  </div>
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+      <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+
+        <!-- Amazon Clone Project -->
+        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="assets/img/portfolio/amazone-project.webp" class="img-fluid" alt="Amazon Clone Project" loading="lazy">
+              <div class="portfolio-overlay">
+                <div class="portfolio-actions">
+                  <a href="portfolio-details.html" target="_blank" class="preview-link"><i class="bi bi-eye"></i></a>
+                  <a href="https://amazone-frontend-wod3.vercel.app/" class="details-link"><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="category">Web Design</span>
+              <h3>Amazon Clone Project</h3>
+              <p>A full e-commerce frontend project built with React and modern web technologies.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Netflix Clone Project -->
+        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="assets/img/portfolio/netflix-project.webp" class="img-fluid" alt="Netflix Clone Project" loading="lazy">
+              <div class="portfolio-overlay">
+                <div class="portfolio-actions">
+                  <a href=" portfolio-details.html" target="_blank" class="preview-link"><i class="bi bi-eye"></i></a>
+                  <a href="https://ashnafi1426.github.io/Netflixclonee/" class="details-link"><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="category">Web Design</span>
+              <h3>Netflix Clone Project</h3>
+              <p>A responsive Netflix clone frontend built with HTML, CSS, and JavaScript.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Existing Portfolio Items -->
+        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="assets/img/portfolio/evandadi.jpg" class="img-fluid" alt="" loading="lazy">
+              <div class="portfolio-overlay">
+                <div class="portfolio-actions">
+                  <a href="assets/img/portfolio/evandadi.jpg" class="glightbox preview-link"><i class="bi bi-eye"></i></a>
+                  <a href="https://evangadi-forum-nu-tawny.vercel.app/" class="details-link"><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="category">fullstack project</span> 
+              <h3>Evangadi Forum Project </h3>
+            </div>
+          </div>
+        </div>
+        <!-- Abegarage Clone Project -->
+        <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+          <div class="portfolio-card">
+            <div class="portfolio-image">
+              <img src="assets/img/portfolio/graeteee.png" class="img-fluid" alt="garage-project" loading="lazy">
+              <div class="portfolio-overlay">
+                <div class="portfolio-actions">
+                  <a href="portfolio-details.html" target="_blank" class="preview-link"><i class="bi bi-eye"></i></a>
+                  <a href="https://abegarageapp-reactjs.vercel.app/" class="details-link"><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-content">
+              <span class="category">Web Design</span>
+              <h3>Grage App fullstack project</h3>
+              <p>Afull garage app used for manage employee , customer and order</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add other existing items here -->
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+    <!-- Services Section -->
+<section id="services" class="services section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Services</h2>
+    <div class="title-shape">
+      <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2">
+        </path>
+      </svg>
+    </div>
+    <p>
+      I offer practical and reliable development services focused on building modern, functional,
+      and user-friendly web solutions.
+    </p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row align-items-center">
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <h2 class="fw-bold mb-4 servies-title">
+          Turning ideas into clean and functional web applications
+        </h2>
+        <p class="mb-4">
+          As a growing software engineering student and self-taught developer, I focus on writing
+          clean code, building responsive interfaces, and developing reliable backend systems using
+          modern technologies.
+        </p>
+        <a href="#contact" class="btn btn-outline-primary">Let’s Work Together</a>
+      </div>
+
+      <div class="col-lg-8">
+        <div class="row g-4">
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item">
+              <i class="bi bi-window icon"></i>
+              <h3><a href="#">Frontend Development</a></h3>
+              <p>
+                Building responsive and user-friendly interfaces using HTML, CSS, JavaScript,
+                React, and modern UI practices to create smooth user experiences.
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item">
+              <i class="bi bi-server icon"></i>
+              <h3><a href="#">Backend Development</a></h3>
+              <p>
+                Developing RESTful APIs and backend logic using Node.js and Express, with secure
+                authentication and database integration.
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item">
+              <i class="bi bi-database icon"></i>
+              <h3><a href="#">Database Design</a></h3>
+              <p>
+                Designing and managing relational databases with MySQL, focusing on clean schema
+                design, data integrity, and efficient queries.
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item">
+              <i class="bi bi-cloud-upload icon"></i>
+              <h3><a href="#">Deployment & Maintenance</a></h3>
+              <p>
+                Deploying and maintaining web applications using cloud platforms like Vercel and
+                Render, ensuring performance, availability, and smooth updates.
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section><!-- /Services Section -->
+
+<section id="contact" class="contact section">
+  <div class="container">
+
+    <!-- Section Title -->
+    <div class="section-title text-center mb-4" data-aos="fade-up">
+      <span class="subtitle">Contact</span>
+      <h2>Get in Touch</h2>
+      <p>Reach out for projects, collaborations, or just a hello!</p>
+    </div>
+
+    <div class="row g-4 align-items-stretch">
+
+      <!-- Contact Info -->
+      <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
+        <div class="contact-info bg-white rounded shadow-sm p-4">
+          
+          <div class="info-item d-flex align-items-center mb-3">
+            <i class="bi bi-envelope-at fs-4 text-primary me-3"></i>
+            <div>
+              <h6>Email</h6>
+              <p>ashenafisileshi7@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="info-item d-flex align-items-center mb-3">
+            <i class="bi bi-telephone fs-4 text-primary me-3"></i>
+            <div>
+              <h6>Phone</h6>
+              <p>+251968277909</p>
+            </div>
+          </div>
+
+          <div class="info-item d-flex align-items-center mb-3">
+            <i class="bi bi-geo-alt fs-4 text-primary me-3"></i>
+            <div>
+              <h6>Location</h6>
+              <p>Kombolcha, Ethiopia</p>
+            </div>
+          </div>
+
+          <a href="https://www.google.com/maps/search/Kombolcha+Ethiopia" target="_blank" class="btn btn-outline-primary mt-3 d-inline-flex align-items-center">
+            Open Map <i class="bi bi-arrow-right ms-2"></i>
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+        <div class="contact-form bg-white rounded shadow-sm p-4">
+          <form action="mailto:ashenafisileshi7@gmail.com" method="post" class="php-email-form">
+            <div class="row g-3">
+
+              <div class="col-md-6">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+              </div>
+
+              <div class="col-md-6">
+                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+              </div>
+
+              <div class="col-12">
+                <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+              </div>
+
+              <div class="col-12">
+                <textarea name="message" class="form-control" rows="5" placeholder="Message" required></textarea>
+              </div>
+
+              <div class="col-12 text-center">
+                <button type="submit" class="btn btn-primary w-100">Send Message</button>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">EasyFolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+       <!-- designed by not bootstrap made this designned by Ashu -->
+        Designed by <a href="https://ashu.com">Ashu</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const skillSection = document.querySelector("#skills");
+  const progressBars = document.querySelectorAll(".progress-bar");
+  let animated = false;
+
+  function animateBars() {
+    if (animated) return;
+    const sectionTop = skillSection.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+    if (sectionTop < windowHeight - 100) {
+      progressBars.forEach(bar => {
+        const value = bar.getAttribute("data-value");
+        bar.style.width = value + "%";
+      });
+      animated = true;
+    }
+  }
+
+  window.addEventListener("scroll", animateBars);
+  animateBars(); // Run on load if already visible
+});
+</script>
+
+
+</body>
+
+</html>
