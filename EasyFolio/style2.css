@@ -223,3 +223,169 @@
     max-height: 500px;
   }
 }
+
+/* Global responsive fixes */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Header */
+.header {
+  padding: 12px 0;
+  background: #fff;
+  transition: all 0.3s ease;
+}
+
+.header.scrolled {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile nav */
+@media (max-width: 991px) {
+  .navmenu ul {
+    position: fixed;
+    inset: 0;
+    background: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(100%);
+    transition: 0.3s;
+    z-index: 999;
+  }
+
+  .navmenu.active ul {
+    transform: translateX(0);
+  }
+
+  .mobile-nav-toggle {
+    font-size: 28px;
+    cursor: pointer;
+  }
+}
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .hero {
+    text-align: center;
+    padding-top: 120px;
+  }
+
+  .hero h2 {
+    font-size: 2.3rem;
+  }
+
+  .hero .cta-buttons {
+    justify-content: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .hero h2 {
+    font-size: 1.9rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
+/* About */
+.about-container img {
+  border-radius: 16px;
+}
+
+@media (max-width: 991px) {
+  .about-content {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .personal-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
+/* Skills */
+.skill-box {
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .skills .row>div {
+    margin-bottom: 20px;
+  }
+}
+/* Resume timeline */
+@media (max-width: 768px) {
+  .timeline {
+    padding-left: 0;
+  }
+
+  .timeline-left,
+  .timeline-right {
+    width: 100%;
+    text-align: left;
+  }
+}
+/* Portfolio */
+.portfolio-card {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .portfolio-content {
+    text-align: center;
+  }
+}
+/* Services */
+.service-item {
+  height: 100%;
+}
+
+@media (max-width: 991px) {
+  .services .row.align-items-center {
+    flex-direction: column;
+  }
+}
+/* Contact */
+@media (max-width: 768px) {
+
+  .contact-info,
+  .contact-form {
+    margin-bottom: 20px;
+  }
+}
+/* Footer */
+.footer {
+  text-align: center;
+}
+
+.footer .social-links {
+  gap: 15px;
+}
