@@ -21,11 +21,10 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-  <link rel="stylesheet" href="./style2.css">
-
+  <link rel="stylesheet" href="assets/css/style2.css" />
+  </head>
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
@@ -69,6 +68,30 @@ window.addEventListener('scroll', () => {
     header.classList.remove('scrolled');
   }
 });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const mobileToggle = document.querySelector(".mobile-nav-toggle");
+    const navMenu = document.getElementById("navmenu");
+
+    // Toggle menu on click
+    mobileToggle.addEventListener("click", function () {
+      navMenu.classList.toggle("active");
+      mobileToggle.classList.toggle("bi-list");
+      mobileToggle.classList.toggle("bi-x");
+    });
+
+    // Close menu when a link is clicked
+    navMenu.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => {
+        if (navMenu.classList.contains("active")) {
+          navMenu.classList.remove("active");
+          mobileToggle.classList.add("bi-list");
+          mobileToggle.classList.remove("bi-x");
+        }
+      });
+    });
+  });
 </script>
 
   <main class="main">
